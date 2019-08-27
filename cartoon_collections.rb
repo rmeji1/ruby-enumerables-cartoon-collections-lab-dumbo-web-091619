@@ -17,9 +17,9 @@ def find_the_cheese(strings)
   
   strings.each do |string| 
     cheese_types.include?(string) ? return string : continue
-    if cheese_types.include?(string)
-      return string 
-    end
+    # if cheese_types.include?(string)
+    #   return string 
+    # end
   end
   
   return nil
