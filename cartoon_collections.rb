@@ -16,7 +16,7 @@ def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   strings.each do |string| 
-    cheese_types.include?(string) ? return string : next
+    # cheese_types.include?(string) ? return string : next
     # if cheese_types.include?(string)
     #   return string 
     # end
