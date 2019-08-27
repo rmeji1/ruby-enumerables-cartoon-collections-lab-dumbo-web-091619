@@ -17,7 +17,7 @@ def find_the_cheese(strings)
   
   strings.each do |string| 
     if cheese_types.contains?(string)
-      return true 
+      return string 
     end
   end
 end
