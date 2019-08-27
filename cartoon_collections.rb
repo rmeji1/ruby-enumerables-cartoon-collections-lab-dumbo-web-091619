@@ -12,6 +12,6 @@ def long_planeteer_calls(calls)# code an argument here
   !!calls.find_index {|item| item.size > 4}
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
