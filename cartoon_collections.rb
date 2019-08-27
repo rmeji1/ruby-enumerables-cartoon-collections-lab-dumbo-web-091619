@@ -16,7 +16,7 @@ def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   strings.each do |string| 
-    if cheese_types.contains?(string)
+    if cheese_types.capitalize?(string)
       return string 
     end
   end
